@@ -141,7 +141,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Inverse design of photonic integrated circuits (PICs) has traditionally relied on gradientbased optimization. However, this approach is prone to end up in local minima, which results in suboptimal design functionality. As interest in PICs increases due to their potential for addressing modern hardware demands through optical computing, more adaptive optimization algorithms are needed. We present a reinforcement learning (RL) environment as well as multi-agent RL algorithms for the design of PICs. By discretizing the design space into a grid, we formulate the design task as an optimization problem with thousands of binary variables. We consider multiple two- and three-dimensional design tasks that represent PIC components for an optical computing system. By decomposing the design space into thousands of individual agents, our algorithms are able to optimize designs with only a few thousand environment samples. They outperform previous state-of-the-art gradient-based optimization in both two- and threedimensional design tasks. Our work may also serve as a benchmark for further exploration of sample-efficient RL for inverse design in photonics.
+            Inverse design of photonic integrated circuits (PICs) has traditionally relied on gradient-based optimization. However, this approach is prone to end up in local minima, which results in suboptimal design functionality. As interest in PICs increases due to their potential for addressing modern hardware demands through optical computing, more adaptive optimization algorithms are needed. We present a reinforcement learning (RL) environment as well as multi-agent RL algorithms for the design of PICs. By discretizing the design space into a grid, we formulate the design task as an optimization problem with thousands of binary variables. We consider multiple two- and three-dimensional design tasks that represent PIC components for an optical computing system. By decomposing the design space into thousands of individual agents, our algorithms are able to optimize designs with only a few thousand environment samples. They outperform previous state-of-the-art gradient-based optimization in both two- and threedimensional design tasks. Our work may also serve as a benchmark for further exploration of sample-efficient RL for inverse design in photonics.
           </p>
         </div>
       </div>
@@ -194,11 +194,11 @@
           <source src="static/videos/video_demonstration.mp4" type="video/mp4">
         </video>
       </div>
-      <div class="content has-text-justified">
+      <!-- <div class="content has-text-justified">
         <p>
           We test the feasibility of MARL in several topology optimization tasks for optical computing. Our Bandit variants of PPO (BPPO) and the Actor-Critic approach (BAC) consistently outperform all baselines by a large margin. Most importantly, gradient based optimization (Grad) is the standard procedure in topology optimization, but is very prone to get stuck in local minima. Additionally, gradient-based optimization struggles with three-dimensional topology optimization, because the non-differentiable design constraints impede the optimization process. In contrast, MARL can easily incorporate these design constraints directly in the optimization process.
         </p>
-      </div>
+      </div> -->
     </div>
   </div>
 </section>
